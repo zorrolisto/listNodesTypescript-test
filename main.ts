@@ -22,8 +22,6 @@ function addTwoNumbers(
     BigInt(getReverseListNodeNumAsString(l1)) +
     BigInt(getReverseListNodeNumAsString(l2));
   const sol = String(sum).split("").reverse();
-  console.log("getReverseListNodeNumAsString(l1)");
-  console.log(getReverseListNodeNumAsString(l1));
   const solLen = sol.length;
   let lastListNode = null;
   for (let i = solLen - 1; i >= 0; i--) {
